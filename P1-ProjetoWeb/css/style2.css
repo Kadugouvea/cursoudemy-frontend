@@ -1,0 +1,29 @@
+/*Curso HTML5, CSS e JS*/
+body, h1, ul, li, nav, p{margin: 0; padding: 0;}
+body{background-color: rgb(212, 212, 212); font-family: sans-serif;}
+
+/*PROPRIEDADE BORDER "border:1px solid transparent" cria uma borda como se fosse uma margem, que interage com a margem da UL*/
+.hero{background: url(../img/bg-3.jpg) right center no-repeat; background-size: cover; height: 800px; border: 1px solid transparent;}
+
+nav ul{list-style: none; text-align: right; margin-top: 30px;}
+nav ul li{display: inline-block; margin-right:30px;}
+nav ul li a{display: block; color: #fff; padding: 20px 30px; border: 2px solid #fff; text-decoration: none; font-size: 1em; text-transform: uppercase; background-color: rgba(0, 0, 0, .2);}
+nav ul li a:hover{background-color: rgba(0, 0, 0, .5);}
+
+.hero-content{text-align: center; color: #fff; margin: 180px 0;} 
+.hero-content h1{font-size: 5em; text-transform: uppercase; text-shadow: 1px 1px 2px black; margin-bottom: 30px;}
+.hero-content p{display: inline-block; padding: 20px 30px; background-color: rgba(0, 0, 0, .5); border-bottom: 2px solid #fff; font-size: 1.3em;}
+.hero-content h1 span{display: block;}
+
+main{width: 70%; margin: auto;}
+main section{background-color: #fff; padding: 20px; margin-top: 20px; overflow: auto;}
+
+.card{float: left; width: 32%; box-sizing: border-box;}
+.card img{width: 100%; display:block;}
+.card-1, .card-2{margin-right: 2%;}
+.card p{display:block; padding: 20px 20px; background-color: rgb(34, 34, 34);color: #fff; box-sizing: border-box; font-size: 1.1em; text-transform: uppercase;}
+
+article h2{border-bottom: 2px solid #333; padding: 10px 0 3px 10px; padding-top: 10px ;margin: 10px 0 15px 0; background-color: rgb(77, 77, 77, .2);}
+article p{letter-spacing: 1px;}
+
+footer{height: 80px; background-color: rgb(77, 77, 77); text-align: center; margin-top: 20px; color: #fff; line-height: 80px;}
